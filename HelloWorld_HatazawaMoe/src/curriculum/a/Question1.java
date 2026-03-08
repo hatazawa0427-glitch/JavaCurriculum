@@ -4,6 +4,7 @@ public class Question1 {
 
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
+	    //再提出
 		//Q1
 		byte byteNum = 0;
 		short shortNum = 0;
