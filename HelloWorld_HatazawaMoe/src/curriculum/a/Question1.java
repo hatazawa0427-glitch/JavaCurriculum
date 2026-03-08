@@ -4,16 +4,27 @@ public class Question1 {
 
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
-		//Q1,Q2
-		byte byteNum = 10;
-		short shortNum = 100;
-		int intNum = 1000;
-		long longNum = 10000;
-		float floatNum = 9.5f;
-		double doubleNum = 10.5;
-		char charletter = 'a';
-		String stringletters = "ハロー";
-		boolean isBoolean = true;
+		//Q1
+		byte byteNum = 0;
+		short shortNum = 0;
+		int intNum = 0;
+		long longNum =0L;
+		float floatNum = 0.0f;
+		double doubleNum = 0.0;
+		char charletter = '\u0000';
+		String stringletters = "null";
+		boolean isBoolean = false;
+		
+		//Q2
+		byteNum = 10;
+	    shortNum = 100;
+		intNum = 1000;
+		longNum = 10000;
+		floatNum = 9.5f;
+		doubleNum = 10.5;
+		charletter = 'a';
+		stringletters = "ハロー";
+		isBoolean = true;
 		
 		System.out.println(byteNum);
 		System.out.println(shortNum);
@@ -68,7 +79,7 @@ public class Question1 {
 		//Q10
 		int num=50;
 		String numStr1=String.valueOf(num);
-		System.out.println("得点："+num+"点");
+		System.out.println("得点："+numStr1+"点");
 		
 		//Q11
 		int a=10;
@@ -83,7 +94,7 @@ public class Question1 {
 		
 		//Q13
 		String text=("私はJavaが好きです。Javaは楽しい！");
-		String result2=text.replace("Java"," Python");
+		String result2=text.replace("Java","Python");
 		System.out.println(result2);
 		
 		
