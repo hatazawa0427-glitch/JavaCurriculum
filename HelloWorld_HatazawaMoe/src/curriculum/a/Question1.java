@@ -13,14 +13,14 @@ public class Question1 {
 		float floatNum = 0.0f;
 		double doubleNum = 0.0;
 		char charletter = '\u0000';
-		String stringletters = "null";
+		String stringletters = null;
 		boolean isBoolean = false;
 		
 		//Q2
 		byteNum = 10;
-	    shortNum = 100;
-		intNum = 1000;
-		longNum = 10000;
+	    shortNum = 100;ntNum = 1000;
+		longNum = 10000
+				;
 		floatNum = 9.5f;
 		doubleNum = 10.5;
 		charletter = 'a';
